@@ -1,8 +1,7 @@
-/*.logo{
-    background:linear-gradient(to top, red 15%,aquamarine,orange, yellow);}*/
+.logo{
+    background:linear-gradient(to top, red 15%,aquamarine,orange, yellow);}
 
-
-    @keyframes header-animado {
+   /* @keyframes header-animado {
         0%{
             background-color:yellow 10%;
         }
@@ -20,4 +19,4 @@
         animation-timing-function: linear;
         animation-duration: 1s;
         animation-delay: 1s;
-    }
+    }*/
