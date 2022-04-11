@@ -49,3 +49,10 @@ ul{
     
 }
 
+.videostutoriales{
+    transition: 3s;
+}
+
+.videos.videostutoriales{
+    opacity: 0;
+}
