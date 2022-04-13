@@ -1,18 +1,31 @@
-/*.logo{
-    background:linear-gradient(to top, red 15%,aquamarine,orange, yellow);}*/
-
-    @keyframes header-animado {
+ /*@keyframes header-animado{
         0%{
-            background-color:yellow 10%;
-        }git
-        50%{
+            background-color:yellow 10%;}
+        50% {
             background-color:yellowgreen;
         }
         
-        100%{
-            background-color: green;
-        }
+        100% {
+            background-color:green;}
+    
+    .logo{
+        animation-name: header-animado;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-delay: 1s;
+    
+}*/
+
+@keyframes header-animado{
+    0%{
+        background-color: yellow 10%}
+    50%{
+        background-color: yellowgreen;}
+    100%{
+        background-color: green;
     }
+    }    
     .logo{
         animation-name: header-animado;
         animation-iteration-count: infinite;
