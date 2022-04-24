@@ -1,0 +1,53 @@
+.whatsapp{
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    :hover{
+        width: 600px;
+        height: 600px;
+        background-color:green;
+    }
+}
+    
+.facebook{
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    :hover{
+        width: 600px;
+        height: 600px;
+        background-color:blue;
+    }
+}
+.instagram{
+    width: 256px;
+    height: 256px;
+    background-color: white;
+    :hover{
+        width: 600px;
+        height: 256px;
+        background-color: orange;
+    }
+}
+
+.enviar{
+    background:  #404969; 
+    color: #bde4f4 ;
+    :hover{
+        background: #ff7f75;
+    }
+    :active{
+        background: green;
+    }
+}
+
+.borrartodo{
+    background:#404969 ;
+    color:  #bde4f4;
+    :hover{
+        background:#ff7f75 ;
+    }
+    :active{
+        background: green
+    }
+}

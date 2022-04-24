@@ -1,125 +1,62 @@
-/*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.whatsapp {
+  width: 256px;
+  height: 256px;
+  background-color: white;
 }
 
-/*.Menunavegacion{
-    background-image: url(../Imagenes/Imagen\ edificio\ 3M\ Arg.jpeg);
-    background-size: auto;
-    
-}*/
-
-/*body{
-    font-family: 'Lato', sans-serif;
-}*/
-/*.Menunavegacion{
-    color: chartreuse;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
-    font-weight: 700;
-}
-.acercadenosotros,.productos,.marcas,.industrias,.tutoriales,.contacto{
-    text-decoration: none;
-    color: chartreuse;
-}
-ul{
-    list-style: none;
+.whatsapp :hover {
+  width: 600px;
+  height: 600px;
+  background-color: green;
 }
 
-.historia{
-    color: cadetblue;
-    background-color: aquamarine;
-    margin: 50px 10px 20px 10px;
-    border-bottom: 2px;
-    border-style: groove;
-    border-color: chocolate;
-    border-radius: 10px;
+.facebook {
+  width: 256px;
+  height: 256px;
+  background-color: white;
 }
 
-.whatsapp{
-    margin: 40px;
-    border-style: none;
-
-}
-.instagram{
-    margin: 40px;
-}
-.facebook{
-    margin: 40px;
-}*/
-
-
-
-.whatsapp:hover {
-    height: 600px;
-    width: 600px;
-    background-color:green;
-}
-.whatsapp{
-    width: 256px;
-    height: 256px;
-    background-color:white;
+.facebook :hover {
+  width: 600px;
+  height: 600px;
+  background-color: blue;
 }
 
-.facebook{
-    width: 256px;
-    height: 256px;
-    background-color: white;
-
+.instagram {
+  width: 256px;
+  height: 256px;
+  background-color: white;
 }
 
-.facebook:hover{
-    height: 600px;
-    width: 600px;
-    background-color:blue;
-
-}
-.instagram{
-    width: 256px;
-    height: 256px;
-    background-color: white;
-
-}
-.instagram:hover{
-    height: 600px;
-    width: 600px;
-    background-color:orange;
-
+.instagram :hover {
+  width: 600px;
+  height: 256px;
+  background-color: orange;
 }
 
-.enviar{
-    background: #404969;
-    color: #bde4f4;
+.enviar {
+  background: #404969;
+  color: #bde4f4;
 }
 
-.enviar:hover{
-    background: #ff7f75;
-}
-.enviar:active{
-    background: green;
+.enviar :hover {
+  background: #ff7f75;
 }
 
-.borrartodo{
-    background: #404969;
-    color: #bde4f4;
+.enviar :active {
+  background: green;
 }
 
-.borrartodo:hover{
-    background: #ff7f75;
-}
-.borrartodo:active{
-    background: green;
+.borrartodo {
+  background: #404969;
+  color: #bde4f4;
 }
 
+.borrartodo :hover {
+  background: #ff7f75;
+}
 
-
-
-
-
-
-
-
-
-
+.borrartodo :active {
+  background: green;
+}
+/*# sourceMappingURL=style.css.map */
