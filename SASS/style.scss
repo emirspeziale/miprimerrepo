@@ -1,56 +1,25 @@
+@import "vars";
+
+
 .whatsapp{
+    background-color: $color-Principal;
     width: 256px;
     height: 256px;
-    background-color: white;
-    box-sizing: content-box;
     :hover{
-        width: 600px;
-        height: 600px;
-        background-color:green;
-    }
-}
-    
-.facebook{
-    width: 256px;
-    height: 256px;
-    background-color: white;
-    box-sizing: content-box;
-    :hover{
-        width: 600px;
-        height: 600px;
-        background-color:blue;
-    }
-}
-.instagram{
-    width: 256px;
-    height: 256px;
-    background-color: white;
-    box-sizing: content-box;
-    :hover{
-        width: 600px;
-        height: 256px;
-        background-color: orange;
+        background-color: blue;
     }
 }
 
 .enviar{
-    background:  #404969; 
-    color: #bde4f4 ;
-    :hover{
-        background: #ff7f75;
-    }
-    :active{
-        background: green;
-    }
+    color:red;}
+    
+
+.facebook{
+    background-color: $color-Principal;
 }
 
-.borrartodo{
-    background:#404969 ;
-    color:  #bde4f4;
-    :hover{
-        background:#ff7f75 ;
-    }
-    :active{
-        background: green
-    }
+.instagram{
+    background-color: $color-Principal;
 }
+
+
