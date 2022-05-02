@@ -20,4 +20,8 @@
 .contactossociales, .whatsapp, .facebook, .instagram {
   width: 256px;
   height: 256px;
+}
+
+.mapa {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */
