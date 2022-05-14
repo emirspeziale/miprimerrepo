@@ -1,25 +1,5 @@
-.whatsapp {
-  background-color: red;
-}
-.whatsapp :hover {
-  background-color: blue;
-}
-
 .enviar {
   color: red;
-}
-
-.facebook {
-  background-color: red;
-}
-
-.instagram {
-  background-color: red;
-}
-
-.contactossociales, .whatsapp, .facebook, .instagram {
-  width: 256px;
-  height: 256px;
 }
 
 .mapa {
@@ -54,7 +34,7 @@
   position: relative;
 }
 .grid-item :hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   filter: hue-rotate(150deg);
 }
 
@@ -78,10 +58,8 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 40px;
-}
-.box_footer .box_footer a {
-  margin: top 20px;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .terms {
@@ -89,4 +67,10 @@ footer {
   margin-top: 20px;
   font-weight: 500;
   font-size: 18px;
+}
+
+.box_footer a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

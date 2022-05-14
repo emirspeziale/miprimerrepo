@@ -1,33 +1,13 @@
-@import "vars";
 
 
-.whatsapp{
-    background-color: $color-Principal;
-    @extend.contactossociales;
-    :hover{
-        background-color: blue;
-    }
-}
 
 .enviar{
     color:red;}
     
 
-.facebook{
-    @extend .contactossociales;
-    background-color: $color-Principal;
-}
-
-.instagram{
-    background-color: $color-Principal;
-    @extend .contactossociales
-}
 
 
-.contactossociales{
-    width: 256px;
-    height: 256px;
-}
+
 .mapa{
     display: grid
 
@@ -60,7 +40,7 @@
     position:relative;
     
     :hover{
-        transform: scale(1.05);
+        transform: scale(1.02);
         filter:hue-rotate(150deg);}
     }
 
@@ -69,6 +49,7 @@ footer{
     padding: 50px 0px;
     background-color: black;
     color: white;
+    
 }
 .container_footer{
     display: flex;
@@ -77,16 +58,16 @@ footer{
     margin: auto;
     max-width: 1200px;
     margin-top: 100px;
+   
 
 }
 .box_footer{
     display: flex;
     flex-direction: column;
     padding: 40px;
-    .box_footer a{
-        margin: top 20px;
-        font-weight: 500;
-    }
+    font-weight: 400;
+    font-size: 18px;
+   
 
 }
 
@@ -96,6 +77,12 @@ footer{
         font-weight: 500;
         font-size: 18px;
 
+    }
+
+    .box_footer a{
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
     }
 
 
