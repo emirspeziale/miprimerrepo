@@ -32,7 +32,7 @@
   display: grid;
   justify-content: space-evenly;
   background-color: whitesmoke;
-  grid-template-columns: 400px 400px 400px 400px;
+  grid-template-columns: repeat(4, 400px);
   grid-template-rows: 600px 600px 600px 600px 1100px;
   gap: 50px;
 }
@@ -56,4 +56,37 @@
 .grid-item :hover {
   transform: scale(1.05);
   filter: hue-rotate(150deg);
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: black;
+  color: white;
+}
+
+.container_footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 100px;
+}
+
+.box_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.box_footer .box_footer a {
+  margin: top 20px;
+  font-weight: 500;
+}
+
+.terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
