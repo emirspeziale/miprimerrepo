@@ -2,7 +2,11 @@
 
 
 .enviar{
-    color:red;}
+    color:red;
+    :hover{
+        color: green;
+    }
+}
     
 
 #grid-container {
@@ -88,16 +92,26 @@ footer{
             font-size:xx-large;
         }
 
+        .socio{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+         
+    
+    .Marcas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+        img{
+            width:100%
+        }
+    }   
+
     }
-
-
-    
-        
-
-    
-
-
-    @media (min-width: 320px) and (max-width: 768px) {
+       @media (min-width: 320px) and (max-width: 768px) {
         .contenedorhistoria {
             color: red;
             display: grid;
@@ -122,27 +136,7 @@ footer{
         grid-template-columns: auto;
     }
 }           
-        
-        .socios{
-        display: grid;
-        grid-template-columns: repeat(4, 300px);
-        grid-template-rows: repeat(1, 300px );
-        margin-top: 20px;
-        justify-content:space-evenly;
-        align-items: center;
-    }
-
-.Marcas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-align: center;
-    img{
-        width:100%
-    }
-}
+    
 
 @media (min-width:320px) and(max-width: 768px) {
     .Marcas{
