@@ -84,11 +84,14 @@ footer {
 .contenedorhistoria h1 {
   font-size: xx-large;
 }
-.contenedorhistoria .socio {
+
+.socios {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 }
-.contenedorhistoria .Marcas {
+
+.Marcas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -96,13 +99,13 @@ footer {
   margin-left: 20px;
   text-align: center;
 }
-.contenedorhistoria .Marcas img {
+.Marcas img {
   width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .contenedorhistoria {
-    color: red;
+    color: black;
     display: grid;
     grid-template-columns: auto;
   }

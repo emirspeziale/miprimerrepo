@@ -1,6 +1,3 @@
-
-
-
 .enviar{
     color:red;
     :hover{
@@ -91,10 +88,12 @@ footer{
         h1{
             font-size:xx-large;
         }
+    }
 
-        .socio{
+        .socios{
             display: grid;
             grid-template-columns: repeat(4,1fr);
+            align-items: center;
         }
          
     
@@ -108,12 +107,14 @@ footer{
         img{
             width:100%
         }
-    }   
-
     }
+
+      
+
+    
        @media (min-width: 320px) and (max-width: 768px) {
         .contenedorhistoria {
-            color: red;
+            color:black;
             display: grid;
             grid-template-columns: auto;
         }
