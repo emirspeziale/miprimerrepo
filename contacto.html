@@ -112,37 +112,23 @@
   <div class="animate__animated animate__swing animate_delay-5s animate_infinite">
     <h2 >Contactenos</h2>
   </div>
-  
-  
-
   </div>
-
-
-
-    
-    <form action="">
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" placeholder="Nombre completo">
-        <br>
-        <br>
-        <label for="mail">Correo electronico
-            <input type="email" id="mail" placeholder="coloque su correo" required>
-            
-            <div>
-                <label for="multi">Comentario</label>
-                <textarea name="multi" id="multi" cols="30" rows="10"></textarea>
-                
-                <br>
-                <input class="enviar" type="submit" value="Enviar">
-                <input class="borrartodo"   type="reset" value="Borrar todo">
-                <input class="newsletter" type="checkbox" name="Newsletter" id="">Desea recibir Newsletter
-                
-                
-                
-                
-    </form>
-
   </main>
+  <form id="register">
+    <input class="input" id="registerName" placeholder="Ingrese el nombre"/>
+    <input class="input" id="registerMail" placeholder="Ingrese el mail"/>
+    <button id="Register">Registrar</button>
+</form>
+<div id="products"></div>
+<button  id="Clear">Limpiar</button>
+<script>
+  let boton = document.getElementById("Register")
+  boton.onclick = () => {alert("GRACIAS POR ENVIAR SUS DATOS")}
+  </script>
+
+  
+
+
     <footer>
       <div class="container_footer">
         <div class="box_footer">
